@@ -8,4 +8,5 @@
 			<attribute name="javadoc_location" value="jar:file:/home/bill/.gradle/caches/modules-2/files-2.1/com.googlecode.lanterna/lanterna/3.0.0/50b87afb8c8923116d42f1cc4c5b250c8c1686a6/lanterna-3.0.0-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/home/bill/.gradle/caches/modules-2/files-2.1/org.clojars.ddudey/charva/1.1.6/31e7a565276c27f56b6686c9f83df5ec5d3da9bd/charva-1.1.6.jar"/>
 </classpath>
