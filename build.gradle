@@ -1,0 +1,23 @@
+apply plugin: 'application'
+apply plugin: 'eclipse'
+
+mainClassName = "Jotunheimr"
+
+sourceCompatibility = 1.6
+version = '1.0'
+
+eclipse {
+    classpath {
+        defaultOutputDir = file("build/classes/main")
+        downloadJavadoc = true
+        downloadSources = true
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.googlecode.lanterna:lanterna:3.0.0'
+}
